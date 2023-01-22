@@ -72,3 +72,74 @@ nav li{
     margin-bottom: 120px;
 }
 /* header end */
+
+/* added team member */
+.container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 120px;
+}
+.team-member{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 24px;
+}
+.team-member img{
+    width: 300px;
+    height: 300px;
+    border-radius: 8px;
+}
+.titles{
+    margin-left: 150px;
+}
+.section-title{
+    font-weight: 500;
+    font-size: 45px;
+    color: #727272;
+    margin-bottom: 20px;
+}
+.blue{
+    color: #131313;
+    font-weight: 700;
+    font-size: 45px;
+}
+.orange{
+    color: #FF900E;
+    font-weight: 700;
+    font-size: 45px;
+}
+.section-description{
+    font-weight: 400;
+    font-size: 14px;
+    color: #727272;
+    margin-bottom: 27px;
+}
+/* Features you will love & enjoy */
+.features{
+    display: flex;
+    justify-content: center;
+}
+
+.first-title{
+    font-weight: 700;
+font-size: 30px;
+color: #131313;
+}
+.item{
+    width: 540px;
+    height: 150px;
+    padding: 17px 17px;
+}
+.item-title{
+    color: #131313;
+    font-weight: 600;
+font-size: 20px;
+}
+
+.feature-banner img{
+    width: 600px;
+height: 860px;
+}
